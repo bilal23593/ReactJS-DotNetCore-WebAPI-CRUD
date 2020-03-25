@@ -1,0 +1,22 @@
+
+=src
++---= actions
+|   |
+|   |-- api.js (handle all http request)
+|   |-- dCandidate.js (Redux actions and action creators)
+|   |-- store.js (Configure redux store)
+|
++---+ components
+|   |
+|   |-- DCandidateForm.js (form operations) -child
+|   |-- DCandidates.js (list of records) -Parent
+|   |-- useForm.js (handles common form of operations)
+|
++---+ reducers
+|   |
+|   |-- dCandidate.js
+|   |-- index.js
+|
+|-- App.js
+|-- index.js
+|-- index.css
